@@ -80,7 +80,11 @@
     margin-right: 20px;
     border: 1px solid #96B9FF;
 }
-
+    .search::placeholder{
+        font-family:Gilroy,Sans-serif,Arial; 
+        font-size: 18px;
+        padding-left: 10px;
+    }
 .profile_block {
     display: flex;
     align-items: center;
@@ -106,6 +110,7 @@
 .table {
     display: inline-table;
     border-collapse: collapse;
+    box-sizing: border-box;
     width: 100%;
 }
 .thead {
