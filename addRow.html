@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BeautySite</title>
+</head>
+<body>
+    <div class="grid_wrapper">
+        <div class="grid_left">
+            <div class="grid_left__menu">
+                <div class="logo">
+                    <img src="img/bella.png" alt="logo">
+                </div>
+                <div class="menu">
+                    <div class="menu_block">
+                        <a href="#">Сотрудники</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="#">Клиенты</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="#">Услуги</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="#">Организации</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="#">Заказы</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="#">Добавить пользователя</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="#">Добавить записи в таблицы</a>
+                    </div>
+                    <div class="menu_block">
+                        <a href="auth.html">Выйти из аккаунта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="grid_header">
+            <div class="grid_header__content">
+                <div class="search_block">
+                    <input type="search" class="search" placeholder="Поиск...">
+                    <button><img src="img/bx-search-alt.svg"></button>
+                </div>
+                <div class="profile_block">
+                    <div class="profile_block__role">Администратор</div>
+                    <div class="profile_block__name">
+                        <img src="img/user.svg" alt="name_user">
+                        <p>Трофимка</p>
+                    </div>
+                </div>
+            </div> 
+        </header>
+        <div class="grid_right">
+            <h3 class="grid_right__title">Добавление записей в таблицы</h3>
+            <div class="grid_right__addForm">
+                <div class="grid_right__form">
+                    <h3>Таблица «Сотрудники»</h3>
+                    <form class="form_add" action="" method="">
+                        <div class="form_add__input">
+                            <input type="text" placeholder="фио">
+                        </div>
+                        <div class="form_add__input">
+                            <select>
+                                <option>парикмахер</option>
+                                <option>тату-мастер</option>
+                            </select>
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="номер">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="стаж">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="зарплата">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="14" placeholder="возраст">
+                        </div>
+                        <div class="form_add__submit">
+                            <input type="submit" value="Добавить">
+                        </div>
+                        <div class="form_add__input">
+                            <p>Информация успешно добавлена!</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="grid_right__form">
+                    <h3>Таблица «Клиенты»</h3>
+                    <form class="form_add" action="" method="">
+                        <div class="form_add__input">
+                            <input type="text" placeholder="фио">
+                        </div>
+                        <div class="form_add__input">
+                            <select>
+                                <option>обычный</option>
+                                <option>премиум</option>
+                            </select>
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="номер">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="адрес">
+                        </div>
+                        <div class="form_add__submit">
+                            <input type="submit" value="Добавить">
+                        </div>
+                        <div class="form_add__input">
+                            <p>Информация успешно добавлена!</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="grid_right__form">
+                    <h3>Таблица «Услуги»</h3>
+                    <form class="form_add" action="" method="">
+                        <div class="form_add__input">
+                            <input type="text" placeholder="название услуги">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="цена">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="id мастера">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="номер заказа">
+                        </div>
+                        <div class="form_add__submit">
+                            <input type="submit" value="Добавить">
+                        </div>
+                        <div class="form_add__input">
+                            <p>Информация успешно добавлена!</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="grid_right__form">
+                    <h3>Таблица «Организации»</h3>
+                    <form class="form_add" action="" method="">
+                        <div class="form_add__input">
+                            <select>
+                                <option>барбершоп</option>
+                                <option>тату-салон</option>
+                            </select>
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="кол-во работников">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="адрес">
+                        </div>
+                        <div class="form_add__submit">
+                            <input type="submit" value="Добавить">
+                        </div>
+                        <div class="form_add__input">
+                            <p>Информация успешно добавлена!</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="grid_right__form">
+                    <h3>Таблица «Заказы»</h3>
+                    <form class="form_add" action="" method="">
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="id клиента">
+                        </div>
+                        <div class="form_add__input">
+                            <select>
+                                <option>стрижка</option>
+                                <option>татуировка</option>
+                            </select>
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="id мастера">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="оценка">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="date" placeholder="дата заказа">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="number" min="0" placeholder="сумма">
+                        </div>
+                        <div class="form_add__submit">
+                            <input type="submit" value="Добавить">
+                        </div>
+                        <div class="form_add__input">
+                            <p>Информация успешно добавлена!</p>
+                        </div>
+                    </form>
+                </div>
+                <div class="grid_right__form">
+                    <h3>Таблица «Информация о заказе»</h3>
+                    <form class="form_add" action="" method="">
+                        <div class="form_add__input">
+                            <input type="text" placeholder="фио">
+                        </div>
+                        <div class="form_add__input">
+                            <select>
+                                <option>обычный</option>
+                                <option>премиум</option>
+                            </select>
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="номер">
+                        </div>
+                        <div class="form_add__input">
+                            <input type="text" placeholder="адрес">
+                        </div>
+                        <div class="form_add__submit">
+                            <input type="submit" value="Добавить">
+                        </div>
+                        <div class="form_add__input">
+                            <p>Информация успешно добавлена!</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
