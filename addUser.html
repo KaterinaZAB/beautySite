@@ -31,7 +31,7 @@
                         <a href="#">Заказы</a>
                     </div>
                     <div class="menu_block">
-                        <a href="addUser.html">Добавить пользователя</a>
+                        <a href="#">Добавить пользователя</a>
                     </div>
                     <div class="menu_block">
                         <a href="#">Добавить записи в таблицы</a>
@@ -58,40 +58,37 @@
             </div> 
         </header>
         <div class="grid_right">
-            <div class="grid_right__table">
-                <div class="table">
-                    <div class="thead">
-                        <div class="row">
-                            <div class="cell">ФИО</div>
-                            <div class="cell">Должность</div>
-                            <div class="cell">Контакты</div>
-                            <div class="cell">Стаж</div>
-                            <div class="cell">Зарплата</div>
-                            <div class="cell">Возраст</div>
-                            <div class="cell">Рейтинг</div>
-                        </div>
+            <div class="grid_right__form">
+                <h3>Добавление нового пользователя</h3>
+                <form class="form_add" action="" method="">
+                    <div class="form_add__input">
+                        <input type="text" placeholder="фио">
                     </div>
-                    <div class="tbody">
-                        <div class="row">
-                            <div class="cell">Быкова Ярослава Игоревна</div>
-                            <div class="cell">парикмахер</div>
-                            <div class="cell">+7(999)999-19-19</div>
-                            <div class="cell">15 лет</div>
-                            <div class="cell">25000</div>
-                            <div class="cell">29</div>
-                            <div class="cell">5.2</div>
-                        </div>
-                        <div class="row">
-                            <div class="cell">Быкова Ярослава Игоревна</div>
-                            <div class="cell">парикмахер</div>
-                            <div class="cell">+7(999)999-19-19</div>
-                            <div class="cell">15 лет</div>
-                            <div class="cell">25000</div>
-                            <div class="cell">29</div>
-                            <div class="cell">5.2</div>
-                        </div>
+                    <div class="form_add__input">
+                        <select>
+                            <option>парикмахер</option>
+                            <option>тату-мастер</option>
+                        </select>
                     </div>
-                </div>
+                    <div class="form_add__input">
+                        <input type="text" placeholder="номер">
+                    </div>
+                    <div class="form_add__input">
+                        <input type="number" min="0" placeholder="стаж">
+                    </div>
+                    <div class="form_add__input">
+                        <input type="number" min="0" placeholder="зарплата">
+                    </div>
+                    <div class="form_add__input">
+                        <input type="number" min="14" placeholder="возраст">
+                    </div>
+                    <div class="form_add__submit">
+                        <input type="submit" value="Добавить">
+                    </div>
+                    <div class="form_add__input">
+                        <p>Пользователь успешно добавлен!</p>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
